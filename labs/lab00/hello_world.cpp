@@ -11,6 +11,9 @@ using namespace std;
 
 int main() 
 {
+    unsigned x = -20;
+    int y =10;
+    cout << static_cast<int>(x) + (y)<<endl;
     cout << "Hello World!" << endl;
     return 0;
 }
